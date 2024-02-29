@@ -4,13 +4,6 @@
 
 This Python script performs a comprehensive analysis of school district data. The analysis includes calculations and data visualization for various metrics related to student performance, school budget, and school size. The data used for this analysis is provided in CSV files and represents the entire school district.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Instructions](#instructions)
-- [Analysis](#analysis)
-- [Data Sources](#data-sources)
-
 ## Overview
 
 The analysis is structured into several sections, each addressing specific aspects of the school district data:
@@ -47,23 +40,7 @@ This section categorizes schools by size (small, medium, or large) within the di
 
 Lastly, the analysis categorizes schools by type (charter or district) within the district and calculates average scores and passing percentages based on school type.
 
-## Instructions
-
-To run this comprehensive analysis:
-
-1. Ensure you have Python installed on your system.
-
-2. Install the necessary Python libraries if you haven't already. You can use pip to install them:
-
-   ```bash
-   pip install pandas
-   ```
-
-3. Download the CSV files containing the school and student data.
-
-4. Modify the script as needed to specify the file paths for the CSV files.
-
-5. Execute the Python script, and it will generate the comprehensive analysis results and visualizations for the entire school district.
+the Python script, and it will generate the comprehensive analysis results and visualizations for the entire school district.
 
 ## Analysis
 
@@ -73,11 +50,3 @@ The analysis results are presented in tables and visualizations, offering valuab
 
 - School data is provided in a CSV file (`Resources/schools_complete.csv`).
 - Student data is provided in a CSV file (`Resources/students_complete.csv`).
-
-Ensure that these data files are in the same directory as the script, or provide the appropriate file paths in the script.
-
-For further details about the analysis and the code, refer to the comments and explanations within the script.
-
-Please don't hesitate to reach out if you have any questions or require additional assistance with running this comprehensive school district analysis.
-
----
